@@ -1,3 +1,438 @@
 *{font-family: 'Nunito', sans-serif;
 }
 
+header {
+    background: #ffffff;
+}
+
+header .logo {
+    margin-left: 5%;
+    background-color: #ffffff;
+
+}
+
+header .logo-text{
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: 999;
+    vertical-align:auto;
+    color: rgba(5,45,114,255);
+}
+
+header .logo, header .logo-text, header .main-list, header .getstar {
+    display: inline-block;
+}
+
+header .main-list{
+    padding-left: 13%;
+    padding-right: 2%;
+    vertical-align:middle;
+    padding-bottom: 0.6%;
+}
+
+header .main-list ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
+}
+
+header .main-list ul li .azul-rey{
+    color: rgba(66,84,241,255);
+}
+
+header .main-list ul li a {
+    text-decoration: none;
+    font-size:medium;
+    color: rgba(1,41,112,255);
+    font-weight: bold;
+}
+
+header .getstar {
+    float: right;
+    align-items: center;
+    display: flex;
+    border-radius: 7%;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    margin-right: 5%;
+    font-size:large;
+    background-color: rgba(65,83,241,255);
+    color: #ffffff;
+    margin-top: 1.8%;
+    font-weight: bold;
+}
+
+/************************************************************************************************************/
+
+section .megadiv .mirave, section .megadiv .compu-con-personas{
+    display:inline-block;
+}
+
+section .megadiv{
+    height: 600px;
+}
+
+section .megadiv2{
+    height: 720px;
+    padding-top: 15%;
+    border-bottom: 1px solid rgba(225,236,255,255);
+}
+
+section .megadiv .mirave{
+    margin-left: 5%;
+    vertical-align: top;
+    margin-top: 12%;
+    padding-right: 2%;
+}
+
+section .megadiv .mirave .parra-bold{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(1,41,112,255);
+}
+
+section .megadiv .mirave .parra-medium{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(68,68,68,255);
+    margin-top: 2%;
+}
+
+section .megadiv .mirave .elget{
+    margin-top: 5%;
+    width: 180px;
+    height: 40px;
+    background-color:  rgba(65,83,241,255);
+    border-radius: 7%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size:medium;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(175,183,249,255)
+}
+
+section .megadiv .mirave .elget a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section .megadiv .compu-con-personas{
+    margin-top: 5%;
+    padding-left: 9%;
+}
+
+section .megadiv .loprimero{
+    text-align: center;
+}
+
+section .megadiv .loprimero .secc2-par1{
+    color: rgba(77,94,242,255);
+    font-size: medium;
+    font-weight: 600;
+}
+
+section .megadiv .loprimero .secc2-par2-bold{
+    color: rgba(1,41,112,255);
+    font-size:35px;
+    font-weight: 900;
+    margin-top: 1%;
+}
+
+section .megadiv2 .loprimero{
+    text-align: center;
+}
+
+section .megadiv2 .loprimero .secc2-par1{
+    color: rgba(77,94,242,255);
+    font-size: medium;
+    font-weight: 600;
+}
+
+section .megadiv2 .loprimero .secc2-par2-bold{
+    color: rgba(1,41,112,255);
+    font-size:35px;
+    font-weight: 900;
+    margin-top: 1%;
+}
+
+section .megadiv .losegundo .secc2-one .qcoshas .osht{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 10%;
+
+}
+
+section .megadiv .losegundo .secc2-one .qcoshas .osht:last-child{
+    margin-right: 0%;
+}
+
+section .megadiv .losegundo .secc2-one .qcoshas .osht .secc2-one-par1{
+    color: rgba(1,41,112,255);
+    font-weight: bold;
+    font-size:x-large;
+}
+
+section .megadiv .losegundo .secc2-one .qcoshas .osht .secc2-one-par2{
+    color: rgba(74,74,74,255);
+    font-weight:300;
+    font-size:16px;
+    padding-top: 5%;
+    font-weight: 700;
+}
+
+section .megadiv .losegundo .secc2-one .qcoshas{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section .megadiv .losegundo .secc2-one .qcoshas .osht img{
+    width: 210px;
+    height: 180px;
+}
+
+/************************************************************************************************************/
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 2%;
+    width: 280px;
+    height: 450px;
+    line-height: 30px;
+    box-shadow: 0px 0px 40px rgb(231, 231, 231);
+}
+
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2:last-child{
+    margin-right: 0%;
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 img{
+    width: 178px;
+    height: 101px;
+    margin-top: 8%;
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-one-titulo, section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-two-titulo, section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-three-titulo, section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-four-titulo{
+    margin-top: 8%;
+    font-weight: 999;
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-one-titulo{
+    color: rgba(3,213,192,255);
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-two-titulo{
+    color: rgba(115,202,44,255);
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-three-titulo{
+    color: rgba(255,147,35,255);
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-four-titulo{
+    color: rgba(255,0,113,255);
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-one-precio{
+    margin-top: 4%;
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-one-parrafo{
+    font-weight: 600;
+    font-size: small;
+    color: rgba(68,68,68,255);
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .secc3-one-parrrafo2{
+ font-size: 11px;
+ color: rgba(204,204,204,255);
+ text-decoration: line-through;
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .btn-comprar{
+    margin-top: 8%;
+    text-decoration: none;
+    width: 100px;
+    margin-bottom: 50%;
+    margin-left: 31%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 1px solid rgba(69,87,241,255);
+}
+
+section .megadiv .losegundo .secc2-one2 .qcoshas2 .osht2 .btn-comprar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(65,83,241,255);
+}
+
+/************************************************************************************************************/
+
+section .megadiv2 .losegundo .secc2-one2 .qcoshas3 .osht3{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 2%;
+    width: 280px;
+    height: 550px;
+    line-height: 30px;
+    box-shadow: 0px 0px 20px rgb(231, 231, 231);
+}
+
+section .megadiv2 .losegundo .secc2-one2 .qcoshas3 .osht3:last-child{
+    margin-right: 0%;
+}
+
+section .megadiv2 .losegundo .secc2-one2 .qcoshas3 .osht3 img{
+    width: 280px;
+    height: 280px;
+}
+
+section .megadiv2 .losegundo .secc2-one2 .qcoshas3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section .megadiv2 .losegundo .secc2-one2 .qcoshas3 .osht3 .secc4-one-titulo{
+    font-weight: 999;
+    font-size:20px;
+    color: rgba(6,45,115,255);
+}
+
+section .megadiv2 .losegundo .secc2-one2 .qcoshas3 .osht3 .secc2-one-subtitulo{
+    font-weight: 500;
+    font-size:14px;
+    color: rgba(170,170,170,255);
+}
+
+section .megadiv2 .losegundo .secc2-one2 .qcoshas3 .osht3 .secc2-one-parrafo{
+    font-weight: 500;
+    font-size:13px;
+    font-style: italic;
+    color: rgba(99,99,99,255);
+}
+
+/************************************************************************************************************/
+
+footer .segundaparte div{
+    background-color: rgba(246,249,254,255);
+    text-align: center;
+    padding: 2%;
+    color: rgba(1,41,112,255);
+    font-weight: 500;
+}
+
+footer .segundaparte div .loko{
+    font-size: 17px;
+}
+
+footer .segundaparte div .loko .title-last{
+    font-weight: bold;
+}
+
+footer .segundaparte div .title-lasttt{
+    color: rgba(65,83,241,255);
+}
+
+footer .primeraparte{
+    border-bottom: 1px solid rgba(225,236,255,255) ;
+    padding: 3% 5%;
+}
+
+footer .primeraparte .one, footer .primeraparte .two, footer .primeraparte .two .yanise{
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer .primeraparte .one .logo-text{
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: 999;
+    vertical-align:auto;
+    color: rgba(5,45,114,255);
+}
+
+footer .primeraparte .one .logo, footer .primeraparte .one .logo-text{
+    display: inline-block;
+}
+
+footer .primeraparte .one .algoasi{
+    padding-top: 2%;
+    font-weight: bold;
+    color: rgba(68,68,68,255);
+    font-size: 12.5px;
+    line-height: 20px;
+}
+
+footer .primeraparte .two{
+    padding-left: 5%;
+    align-items: top;
+    vertical-align: top;
+    margin-top: 1%;
+    width: 700px;
+}
+
+footer .primeraparte .two .yanise .ultima-lista ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(2,50,137,255);
+    line-height: 30px;
+}
+
+footer .primeraparte .two .yanise .ultima-lista ul{
+    list-style: none;
+    padding: 0%;
+}
+
+footer .primeraparte .two .yanise .title-last{
+    font-weight: bold;
+    font-size: 13PX;
+    color: rgba(2,42,112,255);
+}
+
+footer .primeraparte .two .yanise{
+    padding-left: 11%;
+    color: rgba(2,50,137,255);
+}
+
+footer .primeraparte .two .yanise .ultima-parra{
+    color: rgba(68,68,68,255);
+    padding-top: 11%;
+}
+
+footer .primeraparte .two .yanise .contactos{
+    color: rgba(68,68,68,255);
+    padding-top: 11%;
+}
+
+footer .primeraparte .two .yanise .contactos .title-last{
+    color: rgba(68,68,68,255);
+    font-weight: bold;
+}
+
+footer .primeraparte .two .yanise:first-child{
+    padding-left: 0%;
+}
